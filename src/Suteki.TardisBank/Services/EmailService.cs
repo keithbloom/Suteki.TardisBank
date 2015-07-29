@@ -44,7 +44,7 @@ namespace Suteki.TardisBank.Services
             var client = new SmtpClient(configuration.EmailSmtpServer)
             {
                 EnableSsl = configuration.EmailEnableSsl,
-                Port = configuration.EmailPort,
+       //         Port = configuration.EmailPort,
             };
 
             if (!string.IsNullOrWhiteSpace(configuration.EmailCredentialsUserName) && 

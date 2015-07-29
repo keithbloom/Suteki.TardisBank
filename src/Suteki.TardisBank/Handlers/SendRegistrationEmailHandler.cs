@@ -26,7 +26,7 @@ namespace Suteki.TardisBank.Handlers
 
             var toAddress = newParentCreatedEvent.Parent.UserName;
             var subject = "Welcome to Tardis Bank";
-            var url = "http://tardisbank.com/User/Activate/" + newParentCreatedEvent.Parent.ActivationKey;
+            var url = "http://tardisbank.infobit.co.uk/User/Activate/" + newParentCreatedEvent.Parent.ActivationKey;
             var body = string.Format(emailBodyTemplate, url);
 
             emailService.SendEmail(toAddress, subject, body);

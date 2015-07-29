@@ -11,15 +11,15 @@
         <ScheduleKey>runit</ScheduleKey>
 
         <!--if EmailSmtpServer is empty emails just don't get sent-->
-        <EmailSmtpServer>your.smtp.server</EmailSmtpServer>
+        <EmailSmtpServer>smtp.mailgun.org</EmailSmtpServer>
         <EmailEnableSsl>false</EmailEnableSsl>
         <EmailPort>24</EmailPort>
         
         <!--if the username or password is blank, default credentials are used.-->
-        <EmailCredentialsUserName>info@tardisbank.com</EmailCredentialsUserName>
-        <EmailCredentialsPassword>_____</EmailCredentialsPassword>
+        <EmailCredentialsUserName>postmaster@infobit.mailgun.org</EmailCredentialsUserName>
+        <EmailCredentialsPassword>2riomosc7d38</EmailCredentialsPassword>
       
-        <EmailFromAddress>info@tardisbank.com</EmailFromAddress>
+        <EmailFromAddress>info@infobit.co.uk</EmailFromAddress>
 
         <GoogleAnalyticsUaCode>your UA code here</GoogleAnalyticsUaCode>
         
